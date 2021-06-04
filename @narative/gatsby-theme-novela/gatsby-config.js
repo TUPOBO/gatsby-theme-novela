@@ -54,7 +54,7 @@ module.exports = ({
         },
         feeds: [
           {
-            serialize: ({ query: { site, allArticle, allContentfulPost } }) => {
+            serialize: ({ query: { site, allArticle, allContentfulArticle } }) => {
               if (local && !contentful) {
                 return allArticle.edges
                   .filter(edge => !edge.node.secret)
@@ -65,12 +65,13 @@ module.exports = ({
                       date: edge.node.date,
                       url: site.siteMetadata.siteUrl + edge.node.slug,
                       guid: site.siteMetadata.siteUrl + edge.node.slug,
-                      custom_elements: [{ "content:encoded": edge.node.body }],
+                      // body is raw JS and MDX; will need to be processed before it can be used
+                      // custom_elements: [{ "content:encoded": edge.node.body }],
                       author: edge.node.author,
                     };
                   });
               } else if (!local && contentful) {
-                return allContentfulPost.edges
+                return allContentfulArticle.edges
                   .filter(edge => !edge.node.secret)
                   .map(edge => {
                     return {
@@ -84,7 +85,7 @@ module.exports = ({
                     };
                   });
               } else {
-                const allArticlesData = { ...allArticle, ...allContentfulPost };
+                const allArticlesData = { ...allArticle, ...allContentfulArticle };
                 return allArticlesData.edges
                   .filter(edge => !edge.node.secret)
                   .map(edge => {
@@ -122,7 +123,7 @@ module.exports = ({
                 : !local && contentful
                 ? `
               {
-                allContentfulPost(sort: {order: DESC, fields: date}) {
+                allContentfulArticle(sort: {order: DESC, fields: date}) {
                   edges {
                     node {
                       excerpt
@@ -158,7 +159,7 @@ module.exports = ({
                     }
                   }
                 }
-                allContentfulPost(sort: {order: DESC, fields: date}) {
+                allContentfulArticle(sort: {order: DESC, fields: date}) {
                   edges {
                     node {
                       excerpt
@@ -253,7 +254,7 @@ module.exports = ({
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
-        displayName: process.env.NODE_ENV === `development`,
+        autoLabel: process.env.NODE_ENV === `development`,
       },
     },
   ],

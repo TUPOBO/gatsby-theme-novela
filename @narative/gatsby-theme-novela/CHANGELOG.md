@@ -3,6 +3,195 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.18.7](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.6...@narative/gatsby-theme-novela@0.18.7) (2021-03-24)
+
+
+### Bug Fixes
+
+* frontmatter gatsby develop bug ([eb30527](https://github.com/narative/gatsby-theme-novela/commit/eb3052740073e6b9f5eb292b33b861acffaecc92))
+
+
+
+
+
+## [0.18.6](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.5...@narative/gatsby-theme-novela@0.18.6) (2021-02-11)
+
+**Note:** Version bump only for package @narative/gatsby-theme-novela
+
+
+
+
+
+## [0.18.5](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.4...@narative/gatsby-theme-novela@0.18.5) (2020-12-29)
+
+
+### Bug Fixes
+
+* Update gatsby-plugin-emotion option ([17f9453](https://github.com/narative/gatsby-theme-novela/commit/17f9453d67b4a4110085b1841779a0db6883a0e8))
+* url icon alignment at authors page link ([5aecfbd](https://github.com/narative/gatsby-theme-novela/commit/5aecfbd63c895347ae93a2505932643f71168839))
+
+
+
+
+
+## [0.18.4](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.3...@narative/gatsby-theme-novela@0.18.4) (2020-10-31)
+
+**Note:** Version bump only for package @narative/gatsby-theme-novela
+
+
+
+
+
+## [0.18.3](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.2...@narative/gatsby-theme-novela@0.18.3) (2020-10-27)
+
+
+### Bug Fixes
+
+* word-break inside TableCell ([088d992](https://github.com/narative/gatsby-theme-novela/commit/088d9920328c444304b106c35eb5ae08582ce858))
+
+
+
+
+
+## [0.18.2](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.1...@narative/gatsby-theme-novela@0.18.2) (2020-10-20)
+
+
+### Bug Fixes
+
+* **Articles.List:** broken margin on phablet ([b72b5ac](https://github.com/narative/gatsby-theme-novela/commit/b72b5ac0caa200b07f5400a8657ad125b2c68dbc))
+
+
+
+
+
+## [0.18.1](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.0...@narative/gatsby-theme-novela@0.18.1) (2020-10-20)
+
+
+### Bug Fixes
+
+* Long words, text, or URL links could break the article layout into small resolutions. ([6e8871b](https://github.com/narative/gatsby-theme-novela/commit/6e8871b5cda4625266e8bbb02a0045316cd88f35))
+
+
+
+
+
+# [0.18.0](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.17.0...@narative/gatsby-theme-novela@0.18.0) (2020-09-14)
+
+
+### Bug Fixes
+
+* **contentful:** update starter data model ([82f1973](https://github.com/narative/gatsby-theme-novela/commit/82f1973f0106cce9be8786e98251e46b8c795b0f))
+
+
+### Features
+
+* Added ability to implement a custom article footer ([3031fef](https://github.com/narative/gatsby-theme-novela/commit/3031fef7914f1d146c97d05a9e3a5a1422123afb))
+
+
+
+
+
+# [0.17.0](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.5...@narative/gatsby-theme-novela@0.17.0) (2020-07-30)
+
+
+### Features
+
+* Add Url Icon ([b1a1a34](https://github.com/narative/gatsby-theme-novela/commit/b1a1a3439f82f9a80f9859ff1cfb1553983c6b3b))
+
+
+
+
+
+## [0.16.5](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.4...@narative/gatsby-theme-novela@0.16.5) (2020-07-08)
+
+
+### Bug Fixes
+
+* Fixes [#372](https://github.com/narative/gatsby-theme-novela/issues/372) - allow html bio on author's page ([bda4be9](https://github.com/narative/gatsby-theme-novela/commit/bda4be9e2effe3cdb4d71dac65596dbed2609bf5))
+
+
+
+
+
+## [0.16.4](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.3...@narative/gatsby-theme-novela@0.16.4) (2020-06-20)
+
+**Note:** Version bump only for package @narative/gatsby-theme-novela
+
+
+
+
+
+## [0.16.3](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.2...@narative/gatsby-theme-novela@0.16.3) (2020-06-17)
+
+
+### Bug Fixes
+
+* [#363](https://github.com/narative/gatsby-theme-novela/issues/363) add noindex meta tag to secret article ([2faeac4](https://github.com/narative/gatsby-theme-novela/commit/2faeac4458f25e1e12a5c30f274786141f13176f))
+
+
+
+
+
+## [0.16.2](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.1...@narative/gatsby-theme-novela@0.16.2) (2020-06-15)
+
+**Note:** Version bump only for package @narative/gatsby-theme-novela
+
+
+
+
+
+## [0.16.1](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.16.0...@narative/gatsby-theme-novela@0.16.1) (2020-06-12)
+
+**Note:** Version bump only for package @narative/gatsby-theme-novela
+
+
+
+
+
+# [0.16.0](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.15.8...@narative/gatsby-theme-novela@0.16.0) (2020-05-27)
+
+
+### Features
+
+* mdx media blocks ([770618e](https://github.com/narative/gatsby-theme-novela/commit/770618e1bef93f08ea5f951c2230ac5104e967c9))
+
+
+
+
+
+## [0.15.8](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.15.7...@narative/gatsby-theme-novela@0.15.8) (2020-05-27)
+
+
+### Bug Fixes
+
+* **MDXRenderer:** adding full-width for .gif ([2127daa](https://github.com/narative/gatsby-theme-novela/commit/2127daa0f6b89f62b992181dfda64d3a8550794b))
+
+
+
+
+
+## [0.15.7](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.15.6...@narative/gatsby-theme-novela@0.15.7) (2020-05-22)
+
+
+### Bug Fixes
+
+* remove unprocessed JS content from local articles in RSS ([18d3390](https://github.com/narative/gatsby-theme-novela/commit/18d339011a1b0e22d2ef54b90f8f4b46e15c2735))
+
+
+
+
+
+## [0.15.6](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.15.5...@narative/gatsby-theme-novela@0.15.6) (2020-05-18)
+
+
+### Bug Fixes
+
+* notion icon error due to replace regex not handling .so domain. ([6f52b59](https://github.com/narative/gatsby-theme-novela/commit/6f52b59bb1a2e12ea158b47fbfa36ada9dcb95a4))
+
+
+
+
+
 ## [0.15.5](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.15.4...@narative/gatsby-theme-novela@0.15.5) (2020-05-12)
 
 **Note:** Version bump only for package @narative/gatsby-theme-novela
